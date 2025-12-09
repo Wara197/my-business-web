@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ติดต่อเรา</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">กลับสู่หน้าแรก</a>
+        <h1>ติดต่อเรา</h1>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section id="contact">
+        <form action="/register" method="POST">
+          <fieldset>
+            <label for="fname">ชื่อจริง:</label>
+            <input type="text" id="fname" name="fname" required />
+
+            <label for="lname">นามสกุล:</label>
+            <input type="text" id="lname" name="lname" required /><br />
+
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">โทรศัพท์:</label>
+            <input type="tel" id="phone" name="phone" required /><br />
+
+            <label for="message">ข้อความ:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              cols="50"
+              required
+            ></textarea
+            ><br />
+
+            <input type="submit" value="ส่งข้อความ" />
+            <input type="reset" value="ยกเลิก" />
+          </fieldset>
+        </form>
+      </section>
+      <hr />
+      <section id="address">
+        <h2>ที่อยู่ของเรา</h2>
+        <p>
+          บริทัษ NIKE ที่อยู่ของเรา ตั้งอยู่ที่ หมู่ที่ 9 78/54 เซ็นทรัลมารีนา
+          พัทยา Pattaya Sai Song Rd, Bang Lamung District, Chon Buri 20150
+        </p>
+      </section>
+      <section id="map">
+        <h2>แผนที่ของเรา</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.401016538267!2d100.88711957590186!3d12.94617171543359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102bdffe7b89a45%3A0x8236426c11996c90!2sNike%20Clearance%20Store%20Pattaya!5e0!3m2!1sen!2sth!4v1765291018694!5m2!1sen!2sth"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>&copy; 2024 Nike Official. สงวนลิขสิทธิ์.</p>
+      <p>ติดต่อเรา: contact@nikeofficial.com</p>
+    </footer>
+  </body>
+</html>
