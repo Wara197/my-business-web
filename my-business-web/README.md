@@ -23,3 +23,16 @@ my-business-web/
 
 [หน้าแรก](index.html)
 ![index.html](image/index.png)
+
+[เกี่ยวกับเรา](about.html)
+![about.html](image/about1.png)
+![about.html](image/about2.png)
+
+[บริการ](service.html)
+![service.html](image/service1.png)
+![service.html](image/service2.png)
+
+[ติดต่อเรา](contact.html)
+![contact.html](image/contact.png)
+
+**จัดทำโดย:** 67160197@go.buu.ac.th
