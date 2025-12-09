@@ -22,4 +22,4 @@ my-business-web/
 ลิงค์เข้าหน้าเว็บไซต์
 
 [หน้าแรก](index.html)
-![index.html] (image/index.png)
+![index.html](image/index.png)
