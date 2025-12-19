@@ -380,3 +380,32 @@ main img {
     gap: 5px;
   }
 }
+@media (max-width: 600px) {
+  .table-nike thead {
+    display: none;
+  }
+
+  .table-nike tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fff;
+  }
+
+  .table-nike td {
+    display: block;
+    text-align: left;
+    padding: 0.5rem 0;
+    position: relative;
+  }
+
+  .table-nike td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.3rem;
+    color: var(--primary-color);
+  }
+}
