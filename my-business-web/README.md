@@ -54,17 +54,17 @@ my-business-web/
 ลิงค์เข้าหน้าเว็บไซต์
 
 [หน้าแรก](index.html)
-![index.html](image/index.png)
+![index.html](image/indexCSS.png)
 
 [เกี่ยวกับเรา](about.html)
-![about.html](image/about1.png)
-![about.html](image/about2.png)
+![about.html](image/about1CSS.png)
+![about.html](image/about2CSS.png)
 
 [บริการ](service.html)
-![service.html](image/service1.png)
-![service.html](image/service2.png)
+![service.html](image/service1CSS.png)
+![service.html](image/service2CSS.png)
 
 [ติดต่อเรา](contact.html)
-![contact.html](image/contact.png)
+![contact.html](image/contactCSS.png)
 
 **จัดทำโดย:** 67160197@go.buu.ac.th
