@@ -205,31 +205,73 @@ main img {
 .team {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
-  gap: 10px;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.nike-history {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(
+    90deg,
+    var(--secondary-color) 50%,
+    var(--primary-color) 50%
+  );
+  color: var(--text-color);
+  padding: 3rem 1rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.founder {
+  flex: 1 1 500px;
+  text-align: center;
+}
+.executive-section {
+  text-align: center;
+  margin: 4rem auto;
+  color: var(--text-color);
+}
+
+.executive-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
 
-.team-member {
-  background-color: var(--card-bg);
-  padding: 1.5rem;
-  border-radius: 8px;
+.executive-card {
+  background-color: var(--bg-color);
+  padding: 2rem;
+  border-radius: 10px;
   box-shadow: 0 2px 8px var(--shadow-color);
-  text-align: center;
+  max-width: 300px;
+  flex: 1 1 300px;
   transition: all 0.3s ease;
 }
-.team-member:hover {
+
+.executive-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(255, 102, 0, 0.3);
 }
-.team-member img {
-  width: 120px;
-  height: 120px;
+
+.executive-card img {
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
+  object-fit: cover;
   margin-bottom: 1rem;
 }
-.btn {
-  background-color: var(--primary-color);
-  color: #ff00aa;
+
+.executive-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.executive-card p {
+  font-size: 0.95rem;
+  color: #ffffffcc;
 }
 
 #footer {
