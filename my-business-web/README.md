@@ -34,6 +34,23 @@ my-business-web/
     └── Screenshot-index.png
 ```
 
+## CSS Checklist
+
+- [x] Universal Selector & Reset (`*`)
+- [x] Element Selectors (`h1–h4`, `p`, `a`, `table`)
+- [x] Class Selectors (`.hero`, `.card`, `.btn`)
+- [x] ID Selectors (`#header`, `#footer`)
+- [x] Pseudo-classes (`:hover`, `:nth-child`)
+- [x] CSS Units (`px`, `rem`, `%`, `vh`)
+- [x] Color Palette & Typography
+- [x] Box Model (`padding`, `margin`, `border`)
+- [x] Positioning (`sticky`, `fixed`)
+- [x] Display & Layout (Flexbox, Grid Layout)
+- [x] Hover Effects & Transitions
+- [x] CSS Organization & Comments
+
+---
+
 ลิงค์เข้าหน้าเว็บไซต์
 
 [หน้าแรก](index.html)
