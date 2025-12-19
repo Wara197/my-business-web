@@ -2,7 +2,7 @@
  ROOT VARIABLES (Nike Theme)
  ======================== */
 :root {
-  --primary-color: #db8f8f;
+  --primary-color: #d32f2f;
   --secondary-color: #121212;
   --accent-color: #ff6600;
   --bg-color: #0f0f0f;
@@ -27,10 +27,9 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
   background: linear-gradient(90deg, #ffffff 50%, #d32f2f 50%);
-  color: #121212;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,24 +38,11 @@ body {
 /* ========================
  TYPOGRAPHY
  ======================== */
-h1 {
-  font-size: 2.8rem;
-  color: var(--text-color);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 1rem;
-}
-
+h1,
 h2 {
-  font-size: 2rem;
-  color: var(--text-color);
-  margin-bottom: 0.5rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-  color: var(--accent-color);
-  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.4;
 }
 
 p {
@@ -126,26 +112,22 @@ a:hover {
 nav ul {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  list-style: none;
   gap: 2rem;
+  list-style: none;
+  text-transform: uppercase;
 }
-nav a:hover {
-  background-color: #121212;
-  color: #fff;
-}
-
 nav li a {
-  font-weight: 600;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
   color: var(--text-color);
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
-
 nav li a:hover {
   background-color: var(--primary-color);
   color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
 }
+
 main {
   flex: 1;
   display: flex;
@@ -185,8 +167,8 @@ main img {
 }
 
 .hero h2 {
-  font-size: 5vw;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: clamp(2rem, 5vw, 3rem);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
 }
 
 .service-card {
@@ -216,9 +198,8 @@ main img {
 }
 
 .btn:hover {
-  background-color: #b71c1c;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px var(--shadow-color);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 #footer {
