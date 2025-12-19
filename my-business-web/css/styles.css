@@ -273,6 +273,53 @@ main img {
   font-size: 0.95rem;
   color: #ffffffcc;
 }
+.services ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  background: var(--card-bg);
+  color: #000;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--shadow-color);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.services li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(255, 102, 0, 0.3);
+}
+
+.table-nike {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2rem;
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-nike th {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 1rem;
+  text-align: left;
+}
+
+.table-nike td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.table-nike tr:hover {
+  background: #f9f9f9;
+}
 
 #footer {
   background-color: var(--secondary-color);
