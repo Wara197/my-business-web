@@ -10,14 +10,29 @@
 - **ตารางเปรียบเทียบ** จุดเปรียบเทียบของสมาชิกต่างที่ผู้สมัครจะได้รับ เป็นประโยชน์ต่อผู้สมัครไปมากน้อยแค่ไหน
 - **การติดต่อ** รวามช่องทางติดต่อและแผนที่เดินทางไปบริษัท
 
+## ลิงก์เข้าสู่หน้าเว็บ
+
+- [หน้าแรก](index.html)
+- [เกี่ยวกับเรา](about.html)
+- [บริการของเรา](services.html)
+- [ติดต่อเรา](contact.html)
+
+```text
 my-business-web/
 ├── index.html
 ├── about.html
-├── service.html
+├── services.html
 ├── contact.html
-├── image /
-├──...
+├── css/
+│ └── styles.css
 ├── README.md
+└── images/
+    ├── logo.jpg
+    ├── hero-bg.jpg
+    ├── CEO-1.jpg
+    ├── ...
+    └── Screenshot-index.png
+```
 
 ลิงค์เข้าหน้าเว็บไซต์
 
